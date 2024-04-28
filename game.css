@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background: linear-gradient( to left, black, gray);
+    opacity: 85%;
+}
+
+/*styling title for rock, paper, scissors game*/
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: beige;
+    opacity: 75%;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5%;
+}
+
+/* styling for the header that keeps the logo sticky when scrolling */
+.head {
+    float: left;
+    position: sticky;
+    top: 0rem;
+}
+
+/* styling for my personal logo's size */
+#logo {
+    height: 10rem;
+}
+
+/* styling for the rock, paper, & scissors gif */
+.tie {
+    margin-left: -7%;
+}
+
+/* styling for the rock, paper, & scissors positioning */
+#choices {
+    padding-bottom: 5%;
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+/* styling for the rock, paper, & scissors images */
+#choices img {
+    width: 5rem;
+    height: 5rem;
+}
+
+/* styling for the opponent's current score */
+#opponent-score {
+    font-size: 5rem;
+    color: beige;
+    opacity: 75%;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* styling for the opponent's choice */
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    background-color: maroon;
+    margin-top: 10px;
+    opacity: 85%;
+}
+
+/* styling for the player's current score */
+#your-score {
+    font-size: 5rem;
+    color: beige;
+    opacity: 75%;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* styling for the player's current score */
+#your-choice {
+    width: 240px;
+    height: 240px;
+    background-color: maroon;
+    margin-top: 10px;
+    opacity: 85%;
+}
+
+
